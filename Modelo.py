@@ -630,7 +630,7 @@ class CarAgent(Agent):
                 f"Stress: {self.stress}")
 
 class TrafficModel(Model):
-    def __init__(self, width=15, height=5, num_cars_per_direction=5, personality_type="aggressive"):
+    def __init__(self, width=15, height=5, num_cars_per_direction=5, personality_type="random"):
         """
         Initialize traffic model with cars going in both directions.
         Args:

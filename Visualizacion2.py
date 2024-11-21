@@ -1,6 +1,6 @@
 from mesa.visualization import SolaraViz, make_space_component, make_plot_component
 import numpy as np
-from InteraccionAgentes import TrafficModel, CarAgent, TrafficLightAgent
+from Modelo import TrafficModel, CarAgent, TrafficLightAgent
 
 def agent_portrayal(agent):
     """Define how to portray each type of agent."""

@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 from tqdm import tqdm
 import matplotlib.pyplot as plt
-from InteraccionAgentes import TrafficModel
+from Modelo import TrafficModel
 
 def run_multiple_simulations(num_simulations=100, steps_per_sim=10, model_params=None):
     """
